@@ -1,3 +1,5 @@
+# A madlibs generator that uses the Brown corpus
+
 The script 'prepare.sh' downloads the Brown corpus from http://www.sls.hawaii.edu/bley-vroman/browntag_nolines.txt and then creates a file for each grammatical category (each P.O.S. tag) and fills that file with the words from the corpus which belong to that category.
 
 'generate.sh NUM' takes the NUM-th sentence from the corpus and replaces each of it's words with another one of the same grammatical category.
