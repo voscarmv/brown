@@ -6,9 +6,11 @@ The script 'prepare.sh' downloads the Brown corpus from http://www.sls.hawaii.ed
 
 Example:
 
+```sh
 $ ./prepare.sh
 $ ./generate.sh 5
 ** You have selected sentence number 5 from the Brown corpus.
+```
 
 * Untagged sentence from the Brown corpus: 
 
